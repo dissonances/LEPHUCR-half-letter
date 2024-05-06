@@ -1,0 +1,142 @@
+\documentclass{Tiqqunazo}
+\usepackage{lipsum}
+\usepackage{epigraph}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+\makeatletter
+\if@todonotes@disabled
+\newcommand{\hlfix}[2]{#1}
+\else
+\newcommand{\hlfix}[2]{\texthl{#1}\todo{#2}}
+\fi
+\makeatother
+
+\graphicspath{{images/}}
+\usepackage[backend=biber,style=numeric,autocite=footnote]{biblatex}
+\addbibresource{plantar.bib}
+
+%%%%%%%%%%%%%%%%%%%%%% VALORES DE LA CARÁTULA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Plantar Cara al Pasado para Imaginar el Futuro} % Cambia el título del documento
+\author{La Partida} % Cambia el nombre del autor
+%\project{Plantar cara al pasado para imaginar el futuro} % Cambia (u omite) el nombre del proyecto
+%\date{} % Cambia el valor de la fecha mostrada por defecto
+%\imagefolder{./imagenes} % Cambia de carpeta para buscar imágenes
+%\logo{} % Añade la imagen del logotipo a la portada
+\version{Versión 1.0} % Cambia el número de versión
+
+\newfontfamily{\DejaRegular}{DejaVuSansMNerdFontMono-Regular}
+\newfontfamily{\FiraRegular}{FiraCodeNerdFont-Regular}
+\newfontfamily{\HackRegular}{HackNerdFont-Regular}
+%%%%%%%%%%%%%%%%%%%%%%% AJUSTES GENERALES %%%%%%%%%%%%%%%%%%%%%%%
+%\footertext{}{} % Cambia los valores del texto del pie de página
+%\nofootertext % Oculta el texto del pie de página.
+%\imageref{} % Referencia de dónde proceden las imágenes de cabecera si
+             % las hay (aparecen en la última página como nota a pie de
+             % página).
+%\drafting % Comentario para ocultar las secciones \temp y \crit
+%\sectionnumbers % Las secciones son números mayores, las subsecciones
+                 % menores, etc.
+%\subsectionnumbers % Secciones no numeradas, sólo comienzan en las
+                    % subsecciones e inferiores.
+\setcounter{tocdepth}{1} % Establece la profundidad del índice en portada.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begingroup
+\fontsize{8}{10}\DejaRegular
+\section*{DejaVu Sans Mono Nerd Font}
+\lipsum[1]
+
+\fontsize{8}{10}\HackRegular
+\section*{Hack Nerd Font}
+\lipsum[1]
+
+\fontsize{8}{10}\FiraRegular
+\section*{Fira Code Nerd Font}
+\lipsum[1]
+
+\clearpage
+
+\fontsize{8}{10}\FiraRegular
+\begin{quotation}
+%\markdownInput{prologue.md}
+\include{prologue}
+\end{quotation}
+\endgroup
+
+
+\clearpage
+
+\tableofcontents
+
+\clearpage
+
+\part{Plantar cara al pasado para imaginar el porvenir}
+
+\begin{verse}
+    Por dentro, la alarma
+    
+    suena para nosotras.
+    
+    La ecocatástrofe nos consume
+    
+    se manifiesta
+    
+    en los ojos.
+    
+    La alarma afuera
+    
+    la sombra que nos cubre
+    
+    posibilita.
+    
+    Reconocer
+    
+    que me habita
+    
+    en ti también.
+    
+    Ser nosotras
+    \end{verse}
+    
+    \bigskip
+    
+    \begin{markdown}
+    > cultivar
+    >
+    > la palabra
+    >
+    > revolución.
+\end{markdown}
+
+\include{1-plantar-cara/00-prologue}
+\include{1-plantar-cara/01-manifest}
+\include{1-plantar-cara/02-about-the-party}
+\include{1-plantar-cara/03-institutional-struggle}
+\include{1-plantar-cara/04-our-intuitions}
+\include{1-plantar-cara/05-know-to-do}
+\include{1-plantar-cara/06-lefts-right}
+\include{1-plantar-cara/07-some-warnings}
+
+\part{Lee esto para hacer un cambio real}
+\include{2-lephucr/01b-intro}
+\include{2-lephucr/02-cap1}
+\include{2-lephucr/03-cap2}
+\include{2-lephucr/04-cap3}
+\include{2-lephucr/05-cap4}
+\include{2-lephucr/06-cap5}
+
+
+\part{Sobre la Acción Crítica}
+\include{3-accion-critica/00-cite}
+\include{3-accion-critica/01-intro}
+\include{3-accion-critica/02-chapter1}
+\include{3-accion-critica/03-chapter2}
+\include{3-accion-critica/04-chapter3}
+\include{3-accion-critica/05-chapter4}
+
+
+\cite{*}
+\printbibliography
+%\printhelp % Úsalo para ver/imprimir las páginas de ayuda
+\end{document}
