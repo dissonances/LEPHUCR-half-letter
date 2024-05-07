@@ -3,6 +3,7 @@
 \usepackage{epigraph}
 \usepackage{booktabs}
 \usepackage{enumitem}
+\usepackage{emoji}
 
 \makeatletter
 \if@todonotes@disabled
@@ -25,9 +26,6 @@
 %\logo{} % Añade la imagen del logotipo a la portada
 \version{Versión 1.0} % Cambia el número de versión
 
-\newfontfamily{\DejaRegular}{DejaVuSansMNerdFontMono-Regular}
-\newfontfamily{\FiraRegular}{FiraCodeNerdFont-Regular}
-\newfontfamily{\HackRegular}{HackNerdFont-Regular}
 %%%%%%%%%%%%%%%%%%%%%%% AJUSTES GENERALES %%%%%%%%%%%%%%%%%%%%%%%
 %\footertext{}{} % Cambia los valores del texto del pie de página
 %\nofootertext % Oculta el texto del pie de página.
@@ -41,29 +39,6 @@
                     % subsecciones e inferiores.
 \setcounter{tocdepth}{1} % Establece la profundidad del índice en portada.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{document}
-\begingroup
-\fontsize{8}{10}\DejaRegular
-\section*{DejaVu Sans Mono Nerd Font}
-\lipsum[1]
-
-\fontsize{8}{10}\HackRegular
-\section*{Hack Nerd Font}
-\lipsum[1]
-
-\fontsize{8}{10}\FiraRegular
-\section*{Fira Code Nerd Font}
-\lipsum[1]
-
-\clearpage
-
-\fontsize{8}{10}\FiraRegular
-\begin{quotation}
-%\markdownInput{prologue.md}
-\include{prologue}
-\end{quotation}
-\endgroup
-
 
 \clearpage
 
@@ -97,17 +72,13 @@
     en ti también.
     
     Ser nosotras
+
+        cultivar
+        
+        la palabra
+        
+        revolución.
     \end{verse}
-    
-    \bigskip
-    
-    \begin{markdown}
-    > cultivar
-    >
-    > la palabra
-    >
-    > revolución.
-\end{markdown}
 
 \include{1-plantar-cara/00-prologue}
 \include{1-plantar-cara/01-manifest}

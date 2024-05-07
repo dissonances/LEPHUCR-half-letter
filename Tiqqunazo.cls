@@ -23,7 +23,7 @@
 \LoadClass[9pt,twoside]{extarticle}
 \RequirePackage[%
   papersize={4.25in,5.5in}, % tamaño de papel media carta
-  headheight=17pt,          % ajuste del amaño de la cabecera
+  headheight=17pt,          % ajuste del tamaño de la cabecera
   top=0.7in,                % mrgen superior
   bottom=0.6255in,          % margen inferior
   left=0.4375in,            % margen izquierdo
@@ -31,8 +31,8 @@
   ]{geometry}
 
 % CARGA DE LOS PAQUETES NECESARIOS
-  \RequirePackage[utf8]{inputenc}
-  \RequirePackage[T1]{fontenc}
+  %\RequirePackage[utf8]{inputenc}
+  %\RequirePackage[T1]{fontenc}
   \RequirePackage[english,spanish,mexico]{babel}
   \RequirePackage[spanish=mexican]{csquotes}
   \RequirePackage{xparse}
