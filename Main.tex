@@ -1,30 +1,25 @@
 \documentclass{Tiqqunazo}
-\usepackage{lipsum}
-\usepackage{epigraph}
-\usepackage{booktabs}
-\usepackage{enumitem}
-\usepackage{emoji}
 
-\makeatletter
-\if@todonotes@disabled
-\newcommand{\hlfix}[2]{#1}
-\else
-\newcommand{\hlfix}[2]{\texthl{#1}\todo{#2}}
-\fi
-\makeatother
+% \makeatletter
+% \if@todonotes@disabled
+% \newcommand{\hlfix}[2]{#1}
+% \else
+% \newcommand{\hlfix}[2]{\texthl{#1}\todo{#2}}
+% \fi
+% \makeatother
 
 \graphicspath{{images/}}
 \usepackage[backend=biber,style=numeric,autocite=footnote]{biblatex}
 \addbibresource{plantar.bib}
 
 %%%%%%%%%%%%%%%%%%%%%% VALORES DE LA CARÁTULA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{Plantar Cara al Pasado para Imaginar el Futuro} % Cambia el título del documento
+\title{LEE ESTO PARA HACER UN CAMBIO REAL} % Cambia el título del documento
 \author{La Partida} % Cambia el nombre del autor
 %\project{Plantar cara al pasado para imaginar el futuro} % Cambia (u omite) el nombre del proyecto
 %\date{} % Cambia el valor de la fecha mostrada por defecto
 %\imagefolder{./imagenes} % Cambia de carpeta para buscar imágenes
 %\logo{} % Añade la imagen del logotipo a la portada
-\version{Versión 1.0} % Cambia el número de versión
+\version{Versión 1.2} % Cambia el número de versión
 
 %%%%%%%%%%%%%%%%%%%%%%% AJUSTES GENERALES %%%%%%%%%%%%%%%%%%%%%%%
 %\footertext{}{} % Cambia los valores del texto del pie de página
@@ -39,47 +34,15 @@
                     % subsecciones e inferiores.
 \setcounter{tocdepth}{1} % Establece la profundidad del índice en portada.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\begin{document}
 \clearpage
-
+\begin{sloppypar} % Start of general sloppy environment
+\include{prologue}
+\end{sloppypar} % End of general sloppy environment
 \tableofcontents
-
 \clearpage
 
 \part{Plantar cara al pasado para imaginar el porvenir}
-
-\begin{verse}
-    Por dentro, la alarma
-    
-    suena para nosotras.
-    
-    La ecocatástrofe nos consume
-    
-    se manifiesta
-    
-    en los ojos.
-    
-    La alarma afuera
-    
-    la sombra que nos cubre
-    
-    posibilita.
-    
-    Reconocer
-    
-    que me habita
-    
-    en ti también.
-    
-    Ser nosotras
-
-        cultivar
-        
-        la palabra
-        
-        revolución.
-    \end{verse}
-
 \include{1-plantar-cara/00-prologue}
 \include{1-plantar-cara/01-manifest}
 \include{1-plantar-cara/02-about-the-party}
@@ -97,7 +60,6 @@
 \include{2-lephucr/05-cap4}
 \include{2-lephucr/06-cap5}
 
-
 \part{Sobre la Acción Crítica}
 \include{3-accion-critica/00-cite}
 \include{3-accion-critica/01-intro}
@@ -106,8 +68,6 @@
 \include{3-accion-critica/04-chapter3}
 \include{3-accion-critica/05-chapter4}
 
-
-\cite{*}
 \printbibliography
 %\printhelp % Úsalo para ver/imprimir las páginas de ayuda
 \end{document}

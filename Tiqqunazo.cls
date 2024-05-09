@@ -19,47 +19,50 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{Tiqqunazo}[2023 Project Documentation LaTeX class]
 
-% ESTABLECE LAS DIMENSIONES DE LA PÁGINA
-\LoadClass[9pt,twoside]{extarticle}
+% ESTABLECE LAS DIMENSIONES DE LA PÁGINA (y de la mainfont?)
+\LoadClass[5pt,twoside]{extarticle}
+% Packages Loading
 \RequirePackage[%
   papersize={4.25in,5.5in}, % tamaño de papel media carta
-  headheight=17pt,          % ajuste del tamaño de la cabecera
-  top=0.7in,                % mrgen superior
-  bottom=0.6255in,          % margen inferior
-  left=0.4375in,            % margen izquierdo
-  right=0.4375in            % margen derecho
+  % headheight=12pt %,          % ajuste del tamaño de la cabecera
+  % top=0.6in,                % mrgen superior
+  % bottom=0.6255in,          % margen inferior
+  % left=0.43in,            % margen izquierdo
+  % right=0.43in            % margen derecho
   ]{geometry}
+\RequirePackage[english,spanish,mexico]{babel}
+\RequirePackage[spanish=mexican]{csquotes}
+\RequirePackage{xparse}
+\RequirePackage{markdown}
+\RequirePackage{graphicx}
+\RequirePackage[table]{xcolor}
+\RequirePackage{tocloft}
+\RequirePackage{parskip}
+\RequirePackage{fancyhdr}
+\RequirePackage{wrapfig2}
+% Font family definitions
+\RequirePackage{fontspec}
+\newfontfamily\DejaVuSans{DejaVuSansMNerdFontMono-Regular}[Extension=.ttf]
+\newfontfamily\FiraRegular{FiraCodeNerdFont-Regular}[Extension=.ttf]
+\newfontfamily\HackRegular{HackNerdFont-Regular}[Extension=.ttf, SizeFeatures={Size=10}]
+\setmainfont{DejaVuSansMNerdFontMono-Regular}[SizeFeatures={Size=6}] % overrides the Tiqqunazo.cls class size
 
-% CARGA DE LOS PAQUETES NECESARIOS
-  %\RequirePackage[utf8]{inputenc}
-  %\RequirePackage[T1]{fontenc}
-  \RequirePackage[english,spanish,mexico]{babel}
-  \RequirePackage[spanish=mexican]{csquotes}
-  \RequirePackage{xparse}
-  \RequirePackage{markdown}
-  \RequirePackage{graphicx}
-  \RequirePackage[table]{xcolor}
-  \RequirePackage{tocloft}
-  \RequirePackage{parskip}
-  \RequirePackage{fancyhdr}
-  \RequirePackage{wrapfig2}
-  \RequirePackage{titlesec}
-  \RequirePackage[hidelinks]{hyperref}
-  \RequirePackage{xurl}
+% Title fonts
+\RequirePackage{titlesec}
+\titleformat*{\section}{\fontsize{10pt}\selectfont\HackRegular}
+\titleformat*{\subsection}{\fontsize{10pt}\selectfont\HackRegular}
+\titleformat*{\subsubsection}{\fontsize{10pt}\selectfont\HackRegular}
 
-% CAMBIO DE TIPOGRAFÍAS
-\RequirePackage{ebgaramond}
-\RequirePackage{inconsolata}
-
-% In the preamble
-%\RequirePackage{fontspec}
-%\usepackage{fontspec}
-%\newfontfamily\titlefont{Inconsolata} % Define a command to switch to Inconsolata
-
-% Use titlesec to apply the font
-%\titleformat*{\section}{\large\titlefont}
-%\titleformat*{\subsection}{\normalsize\titlefont}
-%\titleformat*{\subsubsection}{\small\titlefont}
+\RequirePackage[hidelinks]{hyperref}
+\RequirePackage{xurl}
+\RequirePackage{ragged2e}
+\RequirePackage{lipsum} % TODO: Remove
+\RequirePackage{epigraph}
+\RequirePackage{booktabs}
+\RequirePackage{enumitem}
+\RequirePackage{emoji}
+\RequirePackage{fontspec}
+\RequirePackage{titlesec}
 
 % INFORMACIÓN DE USUARIO
   \newcommand{\imagefolder}[1]{\def\@imagefolder{#1}}
@@ -445,4 +448,3 @@
   
   ¡A disfrutar!\pagebreak
 }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
