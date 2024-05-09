@@ -73,207 +73,213 @@
   \newcommand{\shorttitle}[1]{\def\@shorttitle{#1}} % Comando para definir un título corto
   \newcommand{\nofootertext}{\def\@lfooter{} \def\@rfooter{}}
   \newcommand{\imageref}[1]{\def\@imageref{#1}}
-
 % ESTABLECE VALORES POR DEFECTO EN CASO CONTRARIO
-  \title{Documento de prueba}
-  \author{~}
-  \project{~}
-  \imagefolder{.}
-  \version{Versi\'on 2.0}
-  \def\@lfooter{Plantar Cara}
-  \def\@rfooter{\@author}
-  \imageref{~}
+\title{Documento de prueba}
+\author{~}
+\project{~}
+\imagefolder{.}
+\version{Versi\'on 2.0}
+\def\@lfooter{Plantar Cara}
+\def\@rfooter{\@author}
+\imageref{~}
 
-  % PERSONALIZACIÓN DEL ÍNDICE DE CONTENIDOS
-  \renewcommand{\cftdot}{}
-  \cftpagenumbersoff{subsection}
-  \setcounter{tocdepth}{1}
-    \renewcommand{\cftsecpresnum}{\begin{lrbox}{\@tempboxa}}
-    \renewcommand{\cftsecaftersnum}{\end{lrbox}}
-  \setlength{\cftsecnumwidth}{0pt}
-    \renewcommand{\cftsubsecpresnum}{\begin{lrbox}{\@tempboxa}}
-    \renewcommand{\cftsubsecaftersnum}{\end{lrbox}}
-  \setlength{\cftsubsecnumwidth}{0pt}
-  \cftsetindents{subsection}{0em}{0em}
+% PERSONALIZACIÓN DEL ÍNDICE DE CONTENIDOS
+\renewcommand{\cftdot}{}
+\cftpagenumbersoff{subsection}
+\setcounter{tocdepth}{1}
+\renewcommand{\cftsecpresnum}{\begin{lrbox}{\@tempboxa}}
+\renewcommand{\cftsecaftersnum}{\end{lrbox}}
+\setlength{\cftsecnumwidth}{0pt}
+\renewcommand{\cftsubsecpresnum}{\begin{lrbox}{\@tempboxa}}
+\renewcommand{\cftsubsecaftersnum}{\end{lrbox}}
+\setlength{\cftsubsecnumwidth}{0pt}
+\cftsetindents{subsection}{0em}{0em}
+% set font for main toc title
+\renewcommand{\cfttoctitlefont}{\DejaVuSans\Huge\bfseries}
+\renewcommand{\cftsecfont}{\DejaVuSans}       % Set font for section entries
+\renewcommand{\cftsubsecfont}{\DejaVuSans}    % Set font for subsection entries
+% todo: small size for page font
+\renewcommand{\cftsecpagefont}{\DejaVuSans}   % Set font for section page numbers
+\renewcommand{\cftsubsecpagefont}{\DejaVuSans}% Set font for subsection page numbers
 
-  % CREACIÓN DE LA CARÁTULA
-  \AtBeginDocument{\pagestyle{fancyplain}\titlepage%
-    \ifsectionnumbers 
-      \renewcommand{\thesection}{\arabic{section}}
-      \renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+% CREACIÓN DE LA CARÁTULA
+\AtBeginDocument{\pagestyle{fancyplain}\titlepage%
+  \ifsectionnumbers 
+    \renewcommand{\thesection}{\arabic{section}}
+    \renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+    \renewcommand{\thesubsubsection}{
+      \arabic{section}.\arabic{subsection}.\arabic{subsubsection}
+    } 
+  \else 
+    \ifsubsectionnumbers 
+      \renewcommand{\thesection}{\kern-1em}
+      \renewcommand{\thesubsection}{\arabic{subsection}}
       \renewcommand{\thesubsubsection}{
-        \arabic{section}.\arabic{subsection}.\arabic{subsubsection}
-      } 
+        \arabic{subsection}.\arabic{subsubsection}
+      }
     \else 
-      \ifsubsectionnumbers 
-        \renewcommand{\thesection}{\kern-1em}
-        \renewcommand{\thesubsection}{\arabic{subsection}}
-        \renewcommand{\thesubsubsection}{
-          \arabic{subsection}.\arabic{subsubsection}
-        }
-      \else 
-        \setcounter{secnumdepth}{0} 
-      \fi 
+      \setcounter{secnumdepth}{0} 
     \fi 
-  }
-  \renewcommand{\titlepage}{%
-    \thispagestyle{title}
-    \begin{flushleft}
-      {\DejaVuSans\fontsize{24}{21}\selectfont\textbf{\MakeUppercase{\@title}}\par}
-      \Large\@author 
-      \vspace{12pt}\linebreak 
-      \textbf{\Huge\@project}
-      \vspace{9pt}\linebreak 
-      \ifdefined\@logo
-        \edef\tmp{%
-          \noexpand%
-          \includegraphics[width=0.3\textwidth]{\@imagefolder/\@logo}%
-          }\tmp%
-      \fi 
-      \linebreak\vfill
-    \end{flushleft}
-  
-    % \begin{centering}
-    %   \parbox{0.98\linewidth}{\@starttoc{toc}} 
-    %   \vspace{10pt}\linebreak
-    % \end{centering}
-    % \rule{\textwidth}{1pt} 
-    \pagebreak 
-  }
+  \fi 
+}
+\renewcommand{\titlepage}{%
+  \thispagestyle{title}
+  \begin{flushleft}
+    {\DejaVuSans\fontsize{24}{21}\selectfont\textbf{\MakeUppercase{\@title}}\par}
+    {\DejaVuSans\Large\@author}
+    \vspace{12pt}\linebreak 
+    \textbf{\DejaVuSans\Huge\@project}
+    \vspace{9pt}\linebreak 
+    \ifdefined\@logo
+      \edef\tmp{%
+        \noexpand%
+        \includegraphics[width=0.3\textwidth]{\@imagefolder/\@logo}%
+        }\tmp%
+    \fi 
+    \linebreak\vfill
+  \end{flushleft}
 
-  % ESTILO DE CABECERA/PIE DE PÁGINA
-  \fancypagestyle{title}{%
-    \renewcommand{\headrulewidth}{1pt} 
-    \fancyhf{}
-    \lhead{\rule[-2ex]{0pt}{2ex}\textbf{\@revision}}
-    \rhead{\rule[-2ex]{0pt}{2ex}\textbf{\@date}} 
-  }
+  % \begin{centering}
+  %   \parbox{0.98\linewidth}{\@starttoc{toc}} 
+  %   \vspace{10pt}\linebreak
+  % \end{centering}
+  % \rule{\textwidth}{1pt} 
+  \pagebreak 
+}
 
-  \renewcommand{\headrulewidth}{0pt}
-  \fancyhead[RE,RO]{}
-  \fancyhead[LE,LO]{}
-  \lfoot{\footnotesize\DejaVuSans\MakeUppercase\@lfooter}
-  \cfoot{\footnotesize\DejaVuSans\thepage}
-  \rfoot{\footnotesize\DejaVuSans\MakeUppercase\@rfooter}
+% ESTILO DE CABECERA/PIE DE PÁGINA
+\fancypagestyle{title}{%
+  \renewcommand{\headrulewidth}{1pt} 
+  \fancyhf{}
+  \lhead{\DejaVuSans\rule[-2ex]{0pt}{2ex}\textbf{\@revision}}
+  \rhead{\DejaVuSans\rule[-2ex]{0pt}{2ex}\textbf{\@date}} 
+}
 
-  % CONFIGURACIÓN DE ESTILO DE CABECERA/PIE DE PÁGINA
-  \renewcommand\section{%
-    \@startsection{section}{1}{\z@}{0.1ex}{3ex}{\FiraRegular\Large\MakeUppercase}%
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[RE,RO]{}
+\fancyhead[LE,LO]{}
+\lfoot{\footnotesize\DejaVuSans\MakeUppercase\@lfooter}
+\cfoot{\footnotesize\DejaVuSans\thepage}
+\rfoot{\footnotesize\DejaVuSans\MakeUppercase\@rfooter}
+
+% CONFIGURACIÓN DE ESTILO DE CABECERA/PIE DE PÁGINA
+\renewcommand\section{%
+  \@startsection{section}{1}{\z@}{0.1ex}{3ex}{\DejaVuSans\Large\textbf\MakeUppercase}%
+}
+\let\oldsection\section
+\RenewDocumentCommand{\section}{s m g o}{%
+  \clearpage
+  \IfNoValueF{#3}
+  {
+    \includegraphics[width=\textwidth]{\@imagefolder/#3}
+    \linebreak    
   }
-  \let\oldsection\section
-  \RenewDocumentCommand{\section}{s m g o}{%
-    \clearpage
-    \IfNoValueF{#3}
-    {
-      \includegraphics[width=\textwidth]{\@imagefolder/#3}
-      \linebreak    
-    }
-    \rule{\textwidth}{1pt}
-    \IfBooleanTF{#1}{\oldsection*{#2}}{\oldsection{#2}}%
-    \IfNoValueF{#4}{\label{sec:#4}\ifdrafting
-                                    \textit{\color{magenta}~Anchor sec:#4}
-                                  \fi
-                    }
-  }
+  \rule{\textwidth}{1pt}
+  \IfBooleanTF{#1}{\oldsection*{#2}}{\oldsection{#2}}%
+  \IfNoValueF{#4}{\label{sec:#4}\ifdrafting
+                                  \textit{\color{magenta}~Anchor sec:#4}
+                                \fi
+                  }
+}
 
 % CONFIGURACIÓN DE ESTILOS DE ENCABEZAMIENTO DE SUBSECCIÓN
 \renewcommand\subsection{%
   \@startsection{subsection}{2}{\z@}{2ex}{2ex}{%
-    \HackRegular\Large}%
+    \DejaVuSans\Large}%
 } 
-  \let\oldsubsection\subsection 
-  \RenewDocumentCommand{\subsection}{s m o}{%
-    \IfBooleanTF{#1}{\oldsubsection*{#2}}{\oldsubsection{#2}}%
-    \IfNoValueF{#3}{\label{sub:#3}\ifdrafting
-                                    \textit{\color{magenta}~Anchor sub:#3}
-                                  \fi
-                    }
-  }
+\let\oldsubsection\subsection 
+\RenewDocumentCommand{\subsection}{s m o}{%
+  \IfBooleanTF{#1}{\oldsubsection*{#2}}{\oldsubsection{#2}}%
+  \IfNoValueF{#3}{\label{sub:#3}\ifdrafting
+                                  \textit{\color{magenta}~Anchor sub:#3}
+                                \fi
+                  }
+}
 
 \renewcommand\subsubsection{%
-  \@startsection{subsubsection}{3}{\z@}{2ex}{2ex}{\DejaVuSans\Large}%
-  }
-  \let\oldsubsubsection\subsubsection
-  \RenewDocumentCommand{\subsubsection}{s m o}{%
-    \IfBooleanTF{#1}{\oldsubsubsection*{#2}}{\oldsubsubsection{#2}}%
-    \IfNoValueF{#3}{\label{sss:#3}\ifdrafting
-                                    \textit{\color{magenta}~Anchor sss:#3}
-                                  \fi
-                    } 
-  }
+  \@startsection{subsubsection}{3}{\z@}{2ex}{2ex}{\DejaVuSans\large}%
+}
+\let\oldsubsubsection\subsubsection
+\RenewDocumentCommand{\subsubsection}{s m o}{%
+  \IfBooleanTF{#1}{\oldsubsubsection*{#2}}{\oldsubsubsection{#2}}%
+  \IfNoValueF{#3}{\label{sss:#3}\ifdrafting
+                                  \textit{\color{magenta}~Anchor sss:#3}
+                                \fi
+                  } 
+}
 
 \newcommand{\subsubsubsection}[1]{%
   \begin{flushleft}
     \vspace{12pt} 
-    \textbf{-- #1}
+    \DejaVuSans\textbf{-- #1}
   \end{flushleft}
 }
 
 \newcommand{\subsubsubsubsection}[1]{%
   \begin{flushleft}
     \vspace{12pt} 
-    \textbf{---- #1}
+    \DejaVuSans\textbf{---- #1}
   \end{flushleft}
 }
 
 \newcommand{\subsubsubsubsubsection}[1]{%
   \begin{flushleft}
     \vspace{12pt} 
-    \MakeUppercase{#1}
+    \DejaVuSans\MakeUppercase{#1}
   \end{flushleft}
 }
 
 \newcommand{\subsubsubsubsubsubsection}[1]{%
   \begin{flushleft}
     \vspace{12pt} 
-    \MakeUppercase{-- #1}
+    \DejaVuSans\MakeUppercase{-- #1}
   \end{flushleft}
 }
 
 \newcommand{\subsubsubsubsubsubsubsection}[1]{%
   \begin{flushleft}
     \vspace{12pt} 
-    \MakeUppercase{---- #1}
+    \DejaVuSans\MakeUppercase{---- #1}
   \end{flushleft}
 }
 
 % OPCIONES DE BOSQUEJO
 \newif\ifdrafting 
-  \newcommand{\drafting}{%
-    \draftingtrue 
-  } 
-  \newcommand{\temp}[1]{%
-    \ifdrafting 
-      \textit{\color{blue}#1} 
-    \fi 
-  }
+\newcommand{\drafting}{%
+  \draftingtrue 
+} 
+\newcommand{\temp}[1]{%
+  \ifdrafting 
+    \DejaVuSans\textit{\color{blue}#1} 
+  \fi 
+}
 
-  \newcommand{\crit}[1]{%
-    \ifdrafting 
-      \textit{\color{red}#1} 
-    \fi 
-  }
+\newcommand{\crit}[1]{%
+  \ifdrafting 
+    \DejaVuSans\textit{\color{red}#1} 
+  \fi 
+}
 
 % CONFIGURACIÓN DEL TEXTO DE HIPERVÍNCULO
 \definecolor{linkblue}{RGB}{0,69,217} 
 \NewDocumentCommand{\link}{m g}{%
   \IfNoValueTF{#2}{% 
-    \href{#1}{\color{linkblue}#1}%
+    \href{#1}{\DejaVuSans\color{linkblue}#1}%
   }
   {%
-    \href{#1}{\color{linkblue}#2}%
+    \href{#1}{\DejaVuSans\color{linkblue}#2}%
   }%
 }
 
 % CONFIGURACIÓN DE IMÁGENES DE CABECERA DE SECCIÓN
-\AtEndDocument{\vfill\textit{\@imageref}}
-  \NewDocumentCommand{\image}{m m g}{%
-    \begin{figure}[h!]
-      \centering
-      \includegraphics[width=#1\textwidth]{\@imagefolder/#2}
-      \IfNoValueF{#3}{
-        \caption{\label{img:#2} #3}
-      }
+\AtEndDocument{\DejaVuSans\vfill\textit{\@imageref}}
+\NewDocumentCommand{\image}{m m g}{%
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=#1\textwidth]{\@imagefolder/#2}
+    \IfNoValueF{#3}{
+      \caption{\label{img:#2} \DejaVuSans #3}
+    }
   \end{figure}
 }
 
@@ -284,8 +290,8 @@
     \begin{wrapfigure}{r}{0.33\textwidth}
       \begin{tabular}{|p{0.3\textwidth}|}
         \cellcolor{black}
-        \textbf{\textcolor{white}{#2}}\\
-        \textit{#3}\\
+        \DejaVuSans\textbf{\textcolor{white}{#2}}\\
+        \DejaVuSans\textit{#3}\\
         \hline
       \end{tabular}
     \end{wrapfigure}
@@ -294,28 +300,28 @@
       \centering
       \begin{tabular}{|p{0.3\textwidth}|}
         \cellcolor{black}
-        \textbf{\textcolor{white}{#2}}\\
-        \textit{#3}\\
+        \DejaVuSans\textbf{\textcolor{white}{#2}}\\
+        \DejaVuSans\textit{#3}\\
         \hline
       \end{tabular}
-    \end{figure}
+    \endfigure}
   } 
 }
 
 % LISTAS BONITAS
 \newenvironment{nicelist}[1]{%
   \parindent1em 
-  \textbf{#1}
+  \DejaVuSans\textbf{#1}
     \begin{itemize}
 }
 {%
   \end{itemize}%
 }
-    
+
 % ENUMERACIONES BONITAS
 \newenvironment{niceenum}[1]{%
   \parindent1em 
-  \textbf{#1}
+  \DejaVuSans\textbf{#1}
     \begin{enumerate}
 }
 {%
@@ -325,13 +331,13 @@
 % DESCRIPCIONES BONITAS
 \newenvironment{nicedesc}[1]{%
   \parindent1em
-  \textbf{#1}
+  \DejaVuSans\textbf{#1}
     \begin{description}
 }
 {%
   \end{description}%
 }
-    
+
 % OPCIONES DE NUMERACIÓN
 \newif\ifsectionnumbers 
 \newcommand{\sectionnumbers}{%
