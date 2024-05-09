@@ -20,7 +20,7 @@
 \ProvidesClass{Tiqqunazo}[2023 Project Documentation LaTeX class]
 
 % ESTABLECE LAS DIMENSIONES DE LA PÁGINA (y de la mainfont?)
-\LoadClass[5pt,twoside]{extarticle}
+\LoadClass[8pt,twoside]{extarticle}
 % Packages Loading
 \RequirePackage[%
   papersize={4.25in,5.5in}, % tamaño de papel media carta
@@ -42,17 +42,7 @@
 \RequirePackage{wrapfig2}
 % Font family definitions
 \RequirePackage{fontspec}
-\newfontfamily\DejaVuSans{DejaVuSansMNerdFontMono-Regular}[Extension=.ttf]
-\newfontfamily\FiraRegular{FiraCodeNerdFont-Regular}[Extension=.ttf]
-\newfontfamily\HackRegular{HackNerdFont-Regular}[Extension=.ttf, SizeFeatures={Size=10}]
-\setmainfont{DejaVuSansMNerdFontMono-Regular}[SizeFeatures={Size=6}] % overrides the Tiqqunazo.cls class size
-
-% Title fonts
 \RequirePackage{titlesec}
-\titleformat*{\section}{\fontsize{10pt}\selectfont\HackRegular}
-\titleformat*{\subsection}{\fontsize{10pt}\selectfont\HackRegular}
-\titleformat*{\subsubsection}{\fontsize{10pt}\selectfont\HackRegular}
-
 \RequirePackage[hidelinks]{hyperref}
 \RequirePackage{xurl}
 \RequirePackage{ragged2e}
@@ -63,6 +53,16 @@
 \RequirePackage{emoji}
 \RequirePackage{fontspec}
 \RequirePackage{titlesec}
+
+% Font Definitions
+\newfontfamily\DejaVuSans{DejaVuSansMNerdFontMono-Regular.ttf}
+\newfontfamily\FiraRegular{FiraCodeNerdFont-Regular.ttf}
+\newfontfamily\HackRegular{HackNerdFont-Regular.ttf}
+% Title fonts
+% \titleformat{\section}{\FiraRegular\selectfont\Large} % Large, bold
+% \titleformat{\subsection}{\HackRegular\selectfont\normal} % Normal size, bold
+% \titleformat{\subsubsection}{\HackRegular\selectfont\small} % Small, bold
+
 
 % INFORMACIÓN DE USUARIO
   \newcommand{\imagefolder}[1]{\def\@imagefolder{#1}}
@@ -87,7 +87,7 @@
   % PERSONALIZACIÓN DEL ÍNDICE DE CONTENIDOS
   \renewcommand{\cftdot}{}
   \cftpagenumbersoff{subsection}
-  \setcounter{tocdepth}{2}
+  \setcounter{tocdepth}{1}
     \renewcommand{\cftsecpresnum}{\begin{lrbox}{\@tempboxa}}
     \renewcommand{\cftsecaftersnum}{\end{lrbox}}
   \setlength{\cftsecnumwidth}{0pt}
@@ -119,7 +119,7 @@
   \renewcommand{\titlepage}{%
     \thispagestyle{title}
     \begin{flushleft}
-      {\fontsize{24}{21}\selectfont\textbf{\MakeUppercase{\@title}}\par}
+      {\DejaVuSans\fontsize{24}{21}\selectfont\textbf{\MakeUppercase{\@title}}\par}
       \Large\@author 
       \vspace{12pt}\linebreak 
       \textbf{\Huge\@project}
@@ -152,13 +152,13 @@
   \renewcommand{\headrulewidth}{0pt}
   \fancyhead[RE,RO]{}
   \fancyhead[LE,LO]{}
-  \lfoot{\footnotesize\MakeUppercase\@lfooter}
-  \cfoot{\footnotesize\thepage}
-  \rfoot{\footnotesize\MakeUppercase\@rfooter}
+  \lfoot{\footnotesize\DejaVuSans\MakeUppercase\@lfooter}
+  \cfoot{\footnotesize\DejaVuSans\thepage}
+  \rfoot{\footnotesize\DejaVuSans\MakeUppercase\@rfooter}
 
   % CONFIGURACIÓN DE ESTILO DE CABECERA/PIE DE PÁGINA
   \renewcommand\section{%
-    \@startsection{section}{1}{\z@}{0.1ex}{3ex}{\Huge\textbf}%
+    \@startsection{section}{1}{\z@}{0.1ex}{3ex}{\FiraRegular\Large\MakeUppercase}%
   }
   \let\oldsection\section
   \RenewDocumentCommand{\section}{s m g o}{%
@@ -179,7 +179,7 @@
 % CONFIGURACIÓN DE ESTILOS DE ENCABEZAMIENTO DE SUBSECCIÓN
 \renewcommand\subsection{%
   \@startsection{subsection}{2}{\z@}{2ex}{2ex}{%
-    \Large\bfseries\MakeUppercase}%
+    \HackRegular\Large}%
 } 
   \let\oldsubsection\subsection 
   \RenewDocumentCommand{\subsection}{s m o}{%
@@ -191,7 +191,7 @@
   }
 
 \renewcommand\subsubsection{%
-  \@startsection{subsubsection}{3}{\z@}{2ex}{2ex}{\large\textbf}%
+  \@startsection{subsubsection}{3}{\z@}{2ex}{2ex}{\DejaVuSans\Large}%
   }
   \let\oldsubsubsection\subsubsection
   \RenewDocumentCommand{\subsubsection}{s m o}{%
@@ -448,3 +448,18 @@
   
   ¡A disfrutar!\pagebreak
 }
+
+%%%%%%%%%%%%%%%%%%%%%%% AJUSTES GENERALES %%%%%%%%%%%%%%%%%%%%%%%
+%\footertext{}{} % Cambia los valores del texto del pie de página
+%\nofootertext % Oculta el texto del pie de página.
+%\imageref{} % Referencia de dónde proceden las imágenes de cabecera si
+             % las hay (aparecen en la última página como nota a pie de
+             % página).
+%\drafting % Comentario para ocultar las secciones \temp y \crit
+%\sectionnumbers % Las secciones son números mayores, las subsecciones
+                 % menores, etc.
+%\subsectionnumbers % Secciones no numeradas, sólo comienzan en las
+                    % subsecciones e inferiores.
+                    \setcounter{tocdepth}{2} % Establece la profundidad del índice en portada.
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    
