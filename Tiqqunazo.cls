@@ -126,7 +126,7 @@
   \thispagestyle{title}
   \begin{flushleft}
     {\DejaVuSans\fontsize{24}{21}\selectfont\textbf{\MakeUppercase{\@title}}\par}
-    {\DejaVuSans\Large\@author}
+    \DejaVuSans\Large\@author
     \vspace{12pt}\linebreak 
     \textbf{\DejaVuSans\Huge\@project}
     \vspace{9pt}\linebreak 
@@ -164,7 +164,7 @@
 
 % CONFIGURACIÓN DE ESTILO DE CABECERA/PIE DE PÁGINA
 \renewcommand\section{%
-  \@startsection{section}{1}{\z@}{0.1ex}{3ex}{\DejaVuSans\Large\textbf\MakeUppercase}%
+  \@startsection{section}{1}{\z@}{0.1ex}{3ex}{\DejaVuSans\Large\MakeUppercase}%
 }
 \let\oldsection\section
 \RenewDocumentCommand{\section}{s m g o}{%
@@ -278,7 +278,7 @@
     \centering
     \includegraphics[width=#1\textwidth]{\@imagefolder/#2}
     \IfNoValueF{#3}{
-      \caption{\label{img:#2} \DejaVuSans #3}
+      \caption{\label{img:#2} #3}
     }
   \end{figure}
 }
@@ -304,7 +304,7 @@
         \DejaVuSans\textit{#3}\\
         \hline
       \end{tabular}
-    \endfigure}
+    \end{figure}
   } 
 }
 
@@ -466,6 +466,5 @@
                  % menores, etc.
 %\subsectionnumbers % Secciones no numeradas, sólo comienzan en las
                     % subsecciones e inferiores.
-                    \setcounter{tocdepth}{2} % Establece la profundidad del índice en portada.
-                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-                    
+%\setcounter{tocdepth}{2} % Establece la profundidad del índice en portada.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
