@@ -19,8 +19,8 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{Tiqqunazo}[2023 Project Documentation LaTeX class]
 
-% ESTABLECE LAS DIMENSIONES DE LA PÁGINA (y de la mainfont?)
-\LoadClass[8pt,twoside]{extarticle}
+% ESTABLECE LAS DIMENSIONES DE LA PÁGINA Y DEL CUERPO BASE
+\LoadClass[8pt,twoside]{extbook}
 % Packages Loading
 \RequirePackage[%
   papersize={4.25in,5.5in}, % tamaño de papel media carta
@@ -46,13 +46,14 @@
 \RequirePackage[hidelinks]{hyperref}
 \RequirePackage{xurl}
 \RequirePackage{ragged2e}
-\RequirePackage{lipsum} % TODO: Remove
+\RequirePackage{lipsum} % TODO: Remover
 \RequirePackage{epigraph}
 \RequirePackage{booktabs}
 \RequirePackage{enumitem}
 \RequirePackage{emoji}
-\RequirePackage{fontspec}
-\RequirePackage{titlesec}
+\RequirePackage{fontawesome} % En vez del anterior
+% \RequirePackage{fontspec}
+% \RequirePackage{titlesec}
 
 % Font Definitions
 \newfontfamily\DejaVuSans{DejaVuSansMNerdFontMono-Regular.ttf}
@@ -86,7 +87,7 @@
 % PERSONALIZACIÓN DEL ÍNDICE DE CONTENIDOS
 \renewcommand{\cftdot}{}
 \cftpagenumbersoff{subsection}
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{3}
 \renewcommand{\cftsecpresnum}{\begin{lrbox}{\@tempboxa}}
 \renewcommand{\cftsecaftersnum}{\end{lrbox}}
 \setlength{\cftsecnumwidth}{0pt}
@@ -149,7 +150,7 @@
 
 % ESTILO DE CABECERA/PIE DE PÁGINA
 \fancypagestyle{title}{%
-  \renewcommand{\headrulewidth}{1pt} 
+  \renewcommand{\headrulewidth}{0pt} 
   \fancyhf{}
   \lhead{\DejaVuSans\rule[-2ex]{0pt}{2ex}\textbf{\@revision}}
   \rhead{\DejaVuSans\rule[-2ex]{0pt}{2ex}\textbf{\@date}} 
