@@ -28,7 +28,7 @@ kanban-plugin: basic
 
 - [ ] Organize releases
 - [ ] [[LEPHUCR-020]] Add more images
-- [ ] #marketing Campaign about Stripe coupon limited to 7 to purchase physical book
+- [ ] #income #marketing Campaign about Stripe coupon limited to 7 to purchase physical book
 - [ ] #obsidian Visualization for [[lephucr.com]]
 - [ ] #obsidian Visualization for [[rt2mrc.io]]
 - [ ] https://publish.obsidian.md/read-this-to-make-a-real-change
@@ -37,7 +37,7 @@ kanban-plugin: basic
 - [ ] #frontend [[angelmora.work]] Remove photos
 - [ ] TODO: Card generator for Obsidian
 - [ ] #frontend #release rt2mrc.io/buy-physical-book
-- [ ] #frontend #release lephucr.com/comprar-libro-fisico
+- [ ] #income #frontend #release lephucr.com/comprar-libro-fisico
 
 
 ## In Progress
@@ -45,24 +45,24 @@ kanban-plugin: basic
 - #aradnix Change titles for Parte 1 and title
 - #aradnix Change titles and subsections
 - #aradnix Poner capitulos en el TOC
-- [ ] #marketing LEPHUCR Telegram channel
-- [ ] Make loom explaining problem of doing something real, say that my content is for resented but willing to mature, people not confortable with guilt, addicts or ex-addicts, pragmatical people who want to believe, for workers
-- [ ] [[LEPHUCR-006]] Record a video for each chapter
-- [ ] [[LEPHUCR-019]] Create back cover
-- [ ] #marketing Record 6 podcast for the video sections (3 in [[lephucr.com]] and [[rt2mkc.io]] each)
-- [ ] [[LEPHUCR-011]] In the prologue, add a note on the fragmentary writing. Little ideas intertwined to create arguments
-- [ ] #latex Translate book
-- [ ] Send Paypal link for people to donate, with a Youtube Video
-- [ ] [[LEPHUCR-008]] Create public narrative to hold coherence throghout the content
-- [ ] [[LEPHUCR-010]] Enable donation links
+- [ ] #income #marketing LEPHUCR Telegram channel
+- [ ] #income Make loom explaining problem of doing something real, say that my content is for resented but willing to mature, people not confortable with guilt, addicts or ex-addicts, pragmatical people who want to believe, for workers. For agents and hackers.
+- [ ] #first #release [[LEPHUCR-006]] Record a video for each chapter
+- [ ] [[LEPHUCR-019]] #income Create back cover
+- [ ] #income #marketing Record 6 podcast for the video sections (3 in [[lephucr.com]] and [[rt2mkc.io]] each)
+- [] #first-release [[LEPHUCR-011]] In the prologue, add a note on the fragmentary writing. Little ideas intertwined to create arguments
+- [ ] #income #latex Translate book
+- [ ] #income Send Paypal link for people to donate, with a Youtube Video
+- [ ] #income [[LEPHUCR-008]] Create public narrative to hold coherence throghout the content
+- [ ] #income [[LEPHUCR-010]] Enable donation links
 - [ ] [[LEPHUCR-007]] Set the bibliography correctly
 - [ ] #frontend [[angelmora.work]] set proper thumbnails
-- [ ] [[LEPHUCR-002]] Generate web article about the book in the website to perform growth marketing
-- [ ] #release Get 7 number of reviews from real people (ES/EN)
-- [ ] #frontend #feature #release [[rt2mrc.io]] CTA: Stripe subscription to $5 USD newsletter releases for new versions, GH repo invitation and CTA to contribute
-- [ ] #frontend Make design more minimalistic
-- [ ] [[LEPHUCR-23]] Translate to English
-- [ ] #frontend #feature #release [[lephucr.com]] CTA: Stripe subscription to $5 USD newsletter releases for new versions, GH repo invitation and CTA to contribute
+- [ ] #income [[LEPHUCR-002]] Generate web article about the book in the website to perform growth marketing
+- [ ] #income #release Get 7 number of reviews from real people (ES/EN). Use Gumroad affiliates
+- [ ] #income #frontend #feature #release [[rt2mrc.io]] CTA: Stripe subscription to $5 USD newsletter releases for new versions, GH repo invitation and CTA to contribute
+- [ ] #income #frontend Make design more minimalistic
+- [ ] #income [[LEPHUCR-23]] Translate to English
+- [ ] #income #frontend #feature #release [[lephucr.com]] CTA: Stripe subscription to $5 USD newsletter releases for new versions, GH repo invitation and CTA to contribute
 
 
 ## Peer Review / QA
