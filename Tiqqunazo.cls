@@ -182,10 +182,13 @@
                   }
 }
 
+% Set font for part title
+\titleformat{\part}[display]{\DejaVuSans\Huge\bfseries}{\partname~\thepart}{0pt}{}
+
 % CONFIGURACIÓN DE ESTILOS DE ENCABEZAMIENTO DE SUBSECCIÓN
 \renewcommand\subsection{%
   \@startsection{subsection}{2}{\z@}{2ex}{2ex}{%
-    \DejaVuSans\Large}%
+    \DejaVuSans\large}%
 } 
 \let\oldsubsection\subsection 
 \RenewDocumentCommand{\subsection}{s m o}{%
