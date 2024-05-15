@@ -45,7 +45,7 @@ kanban-plugin: basic
 - [ ] #frontend [[angelmora.work]] Remove photos
 - [ ] TODO: Card generator for Obsidian
 - [ ] #frontend #release rt2mrc.io/buy-physical-book
-- [ ] #frontend #release lephucr.com/comprar-libro-fisico
+- [ ] #income #frontend #release lephucr.com/comprar-libro-fisico
 
 
 ## First Release: Payments Flows
