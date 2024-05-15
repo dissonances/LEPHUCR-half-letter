@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1f7dba5d5a999dbc",
+        "id": "ae5d3acf7bbda436",
         "type": "tabs",
         "children": [
           {
-            "id": "d08d9e435b3e8b3d",
+            "id": "8595d49c8fe95bde",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -144,9 +144,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d08d9e435b3e8b3d",
+  "active": "8595d49c8fe95bde",
   "lastOpenFiles": [
+    "LEPHUCR-011.md",
+    "PROJECT.md",
+    "fix-ticket-numbers.rb",
+    "LEPHUCR-010.md",
+    "LEPHUCR-018.md",
+    "LEPHUCR-009.md",
+    "LEPHUCR-006.md",
+    "LEPHUCR-023.md",
+    "prologue.tex.md",
+    "LEPHUCR-025.md",
+    "LEPHUCR-008.md",
+    "LEPHUCR-001.md",
+    "ticket_template.md",
+    "lephucr-issues.csv",
+    "Main.bib",
+    "LaPartida Invitation.md",
+    "LEPHUCR-021.rb",
+    "LEPHUCR-021.md",
+    "LEPHUCR-013.md",
     "LEPHUCR-007.md",
-    "PROJECT.md"
+    "LEPHUCR-002.md",
+    "Guía para la corrección de documentos con LaTeX y todonotes – Telegraph.md",
+    "CTAs.md",
+    "plantar.bib"
   ]
 }
