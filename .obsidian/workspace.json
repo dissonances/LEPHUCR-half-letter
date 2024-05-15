@@ -144,10 +144,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8595d49c8fe95bde",
+  "active": "3149a2b584022b8a",
   "lastOpenFiles": [
-    "LEPHUCR-011.md",
+    "Backlog.md",
     "PROJECT.md",
+    "2024-05-15.md",
+    "LEPHUCR-011.md",
     "fix-ticket-numbers.rb",
     "LEPHUCR-010.md",
     "LEPHUCR-018.md",

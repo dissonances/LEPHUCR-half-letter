@@ -1,5 +1,7 @@
 ---
+
 kanban-plugin: basic
+
 ---
 
 ## Backlog
@@ -45,11 +47,11 @@ kanban-plugin: basic
 - [ ] #frontend #release rt2mrc.io/buy-physical-book
 - [ ] #frontend #release lephucr.com/comprar-libro-fisico
 
+
 ## First Release: Payments Flows
 
 - [ ] Set project mail
 - [ ] #marketing LEPHUCR Telegram channel
-- [ ] #videos Make loom explaining problem of doing something real, say that my content is for resented but willing to mature, people not confortable with guilt, addicts or ex-addicts, pragmatical people who want to believe, for workers
 - [ ] #videos [[LEPHUCR-006]] Record a video for each chapter
 - [ ] #frontend Make design more minimalistic
 - [ ] #frontend #feature #release [[lephucr.com]] CTA: Stripe subscription to $5 USD newsletter releases for new versions, GH repo invitation and CTA to contribute
@@ -59,21 +61,30 @@ kanban-plugin: basic
 - [ ] [[LEPHUCR-010]] Enable donation links
 - [ ] [[LEPHUCR-007]] Set the bibliography correctly
 
+
 ## In Progress
 
 - [ ] [[LEPHUCR-025]] #latex #aradnix Design Cleanup
 - [ ] [[LEPHUCR-019]] #design #indesign Create front and back cover
 - [ ] [[LEPHUCR-011]] #latex Prologue
+- [ ] #videos Make loom explaining problem of doing something real, say that my content is for resented but willing to mature, people not confortable with guilt, addicts or ex-addicts, pragmatical people who want to believe, for workers
 - [ ] [[LEPHUCR-008]] Academic Proof-reading
 - [ ] [[LEPHUCR-028]] #frontend #release Make 7 fake reviews in spanish
+- [ ] [[LEPHUCR-030]] https://latexdoc.com/add-background-watermark-in-latex/
+- [ ] Register in Mexico https://www.gob.mx/tramites/ficha/inscripcion-de-obra-literaria-o-artistica/INDAUTOR3258
+- [ ] Cover https://www.overleaf.com/latex/templates/lathex-dark/zskfsqdtwnqv
+- [ ] Set Digital garden for prologue<br>https://github.com/maximevaillancourt/digital-garden-jekyll-template
+
 
 ## Peer Review / QA
 
 - [ ] [[LEPHUCR-027]] #spike #frontend Add nerdfonts and improve fonts marriage
 
+
 ## Ready to Promote
 
 - [ ] [[LEPHUCR-001]] Standar template for 3 books
+
 
 ## Done
 

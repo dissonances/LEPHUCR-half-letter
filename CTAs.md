@@ -41,3 +41,14 @@ LibOps produce easier to consume services for our academic community.
 # Final
 - For our investors: Fill up this form to join the first campaign results meeting and participate in what to do with the budget available. You might even become a board member!
 - Join our [[obsidian course]] to organize yourself!
+
+# Notas con Hugo
+- Audiolibro (o podcast)
+- Por capítulo
+- Sacar el prólogo
+- Checar analytics de Vercel
+- Llevar la velocidad de muchos formatos con releases periodicos
+- newsletter
+- Regalar plantar cara al pasado para imaginar
+- Newsletter (and / or wishlist)
+- Vender merch de Hi-Bye
