@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ae5d3acf7bbda436",
+        "id": "3779ca7f94956c29",
         "type": "tabs",
         "children": [
           {
-            "id": "8595d49c8fe95bde",
+            "id": "e6bd4d06f16f91e0",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
-                "file": "PROJECT.md"
+                "file": "LEPHUCR-125.md"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PROJECT.md",
+                "file": "LEPHUCR-125.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PROJECT.md",
+                "file": "LEPHUCR-125.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PROJECT.md"
+                "file": "LEPHUCR-125.md"
               }
             }
           }
@@ -144,12 +144,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3149a2b584022b8a",
+  "active": "e6bd4d06f16f91e0",
   "lastOpenFiles": [
-    "Backlog.md",
     "PROJECT.md",
-    "2024-05-15.md",
+    "rails-nextjs.md",
+    "interview-miguel.md",
+    "LEPHUCR-125.md",
     "LEPHUCR-011.md",
+    "Backlog.md",
+    "2024-05-15.md",
     "fix-ticket-numbers.rb",
     "LEPHUCR-010.md",
     "LEPHUCR-018.md",

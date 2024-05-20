@@ -15,7 +15,7 @@ kanban-plugin: basic
 - [ ] #release Create [[dissonances.biz/RT2MRC]] Dissonances is like a *deriva* journey.
 
 
-## Fifth Release: Github and Obsidian
+## Fourth Release: Github and Obsidian
 
 - [ ] [[LEPHUCR-015]] Sync up org/md/tex files simoultaneously
 - [ ] [[LEPHUCR-013]] Ruby script to move text back to Markdown but keep Latex section separated.
@@ -26,79 +26,45 @@ kanban-plugin: basic
 - [ ] https://publish.obsidian.md/lee-esto-para-hacer-un-cambio-real
 
 
-## Fourth Release: English
+## Third Release: English
 
 - [ ] [[LEPHUCR-023]] Translate to English
 
-
-## Third Release: Reviews
-
-- [ ] #release Get 7 number of reviews from spanish spoken people
-
-
 ## Second Release: Marketing Strategy
 
-- [ ] [[LEPHUCR-026]] LEPHUCR.com growth marketing blog post
-- [ ] [[LEPHUCR-020]] Add more images
-- [ ] #marketing Campaign about Stripe coupon limited to 7 to purchase physical book
-- [ ] Set a subdomain for Obsidian Publish projects
-- [ ] #frontend [[angelmora.work]] Remove photos
-- [ ] TODO: Card generator for Obsidian
-- [ ] #frontend #release rt2mrc.io/buy-physical-book
-- [ ] #income #frontend #release lephucr.com/comprar-libro-fisico
-
-
-## First Release: Payments Flows
-
-- [ ] Set project mail
-- [ ] #marketing LEPHUCR Telegram channel
-- [ ] #videos [[LEPHUCR-006]] Record a video for each chapter
-- [ ] #frontend Make design more minimalistic
-- [ ] #frontend #feature #release [[lephucr.com]] CTA: Stripe subscription to $5 USD newsletter releases for new versions, GH repo invitation and CTA to contribute
-- [ ] [[LEPHUCR-002]] Generate web article about the book in the website to perform growth marketing
+- [ ] #release Get 7 number of reviews from spanish spoken people
+- [ ] #goal Get 5K USD from 1000 suscriptions in 3 months
 - [ ] #marketing Record 6 podcast for the video sections (3 in [[lephucr.com]] and [[rt2mkc.io]] each)
-- [ ] Send Paypal link for people to donate, with a Youtube Video
-- [ ] [[LEPHUCR-010]] Enable donation links
-- [ ] [[LEPHUCR-007]] Set the bibliography correctly
+- [ ] #marketing [[LEPHUCR-002]] Generate web article about the book in the website to perform growth marketing
+- [ ] #marketing LEPHUCR Telegram channel
+- [ ] #marketing Datacamp Marketing Campaign
+- [ ] #marketing [[LEPHUCR-028]] #frontend #release Make 7 fake reviews in spanish
+- [ ] #marketing [[LEPHUCR-026]] LEPHUCR.com growth marketing blog post
+- [ ] #marketing [[LEPHUCR-020]] Add more images
+- [ ] #marketing Campaign about Stripe coupon limited to 7 to purchase physical book
+- [ ] #marketing Set a subdomain for Obsidian Publish projects
+- [ ] #marketing #frontend [[angelmora.work]] Remove photos
+- [ ] #marketing TODO: Card generator for Obsidian
+- [ ] #marketing #frontend #release rt2mrc.io/buy-physical-book
+- [ ] #marketing #income #frontend #release lephucr.com/comprar-libro-fisico
 
 
 ## In Progress
-
-- [ ] [[LEPHUCR-025]] #latex #aradnix Design Cleanup
-- [ ] [[LEPHUCR-019]] #design #indesign Create front and back cover
-- [ ] [[LEPHUCR-011]] #latex Prologue
-- [ ] #videos Make loom explaining problem of doing something real, say that my content is for resented but willing to mature, people not confortable with guilt, addicts or ex-addicts, pragmatical people who want to believe, for workers
-- [ ] [[LEPHUCR-008]] Academic Proof-reading
-- [ ] [[LEPHUCR-028]] #frontend #release Make 7 fake reviews in spanish
-- [ ] [[LEPHUCR-030]] https://latexdoc.com/add-background-watermark-in-latex/
-- [ ] Register in Mexico https://www.gob.mx/tramites/ficha/inscripcion-de-obra-literaria-o-artistica/INDAUTOR3258
-- [ ] Cover https://www.overleaf.com/latex/templates/lathex-dark/zskfsqdtwnqv
-- [ ] Set Digital garden for prologue<br>https://github.com/maximevaillancourt/digital-garden-jekyll-template
-
-
-## Peer Review / QA
-
-- [ ] [[LEPHUCR-027]] #spike #frontend Add nerdfonts and improve fonts marriage
-
-
-## Ready to Promote
-
-- [ ] [[LEPHUCR-001]] Standar template for 3 books
+- [ ] [[LEPHUCR-125]] First Release
 
 
 ## Done
 
-- [x] [[LEPHUCR-017]] Centralize and improve bibliography
-- [x] [[2024-05-14]] Organize releases
-- [x] #design #latex Fix bibtex references not showing in final bibliography
 
 
 ***
 
 ## Archive
 
-- [ ] #release-2 TODO
-- [ ] #release-2 [[LEPHUCR-005]] Get 5K USD from 1000 suscriptions
+- [x] [[LEPHUCR-001]] Standar template for 3 books
+- [x] [[LEPHUCR-017]] Centralize and improve bibliography
+- [x] [[2024-05-14]] Organize releases
+- [x] #design #latex Fix bibtex references not showing in final bibliography
 - [x] [[LEPHUCR-012]] Set one individual main.tex
 - [x] [[LEPHUCR-004]] Buy Overleaf again
 - [x] [[LEPHUCR-003]] Add Overleaf \todo package article to repo wiki
