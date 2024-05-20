@@ -6,7 +6,7 @@
 \centering
 \footnotesize
 
-La composición tipográfica se realizo con Pandoc y XeLaTeX.
+La composición tipográfica se realizó con Pandoc y XeLaTeX.
 
 \vspace{0.5em}
 
