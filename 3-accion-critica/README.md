@@ -30,23 +30,23 @@ It's mostly tiny scripts to help me in the writing/translating/editing process.
 
 ## Intro
 
-Yo participe algunos anios en un proyecto de activismo politico. De casualidad me interese por las entranias de la teoria estetica, ontologia y logica, lo que junto con algunos conocimientos de economia y otras cosas tecnocratas, me permitieron observar las diferentes formas, estructuras, que atraviesan esta realidad consensuada que habitamos.
+Yo participé algunos años en un proyecto de activismo político. De casualidad me interesé por las entrañas de la teoría estética, ontología y lógica, lo que junto con algunos conocimientos de economía y otras cosas tecnócratas, me permitieron observar las diferentes formas, estructuras, que atraviesan esta realidad consensuada que habitamos.
 
-Es muy chistoso xq lei Marx, Deleuze, mire videos de Leonor Silivestre, hasta estuve enrolado en el I17 en posgrado al terminar las materias, pero estuve expuesto al condicionamiento psicosomatico del ITAM, una velocidad horrible de autodestruccion, digna de cualquier celebracion de la elite romana.
+Es muy chistoso xq leí Marx, Deleuze, miré videos de Leonor Silvestri, hasta estuve enrolado en el I17 en posgrado al terminar las materias, pero estuve expuesto al condicionamiento psicosomático del ITAM, una velocidad horrible de autodestrucción, digna de cualquier celebración de la élite romana.
 
-Y pues como clasemediero me fui formando como consumidor de los problemas y soluciones del discurso publico, que ahora se manifiesta a traves de Twitter, Instagram. Vi como el ITAM te ennaquece, te aliena a traves de su dadiva social, de una beca total. Te vuelve el que aspira a tomar bacardi en un antro de Antara y al que la gente blanca de familias poderosas podrian llegar a aceptar si pasa todas las pruebas de autoflagelamiento mental. Te vuelve muy falico.
+Y pues como clasemediero me fui formando como consumidor de los problemas y soluciones del discurso público, que ahora se manifiesta a través de Twitter, Instagram. Vi cómo el ITAM te ennaquece, te aliena a través de su dádiva social, de una beca total. Te vuelve el que aspira a tomar Bacardí en un antro de Antara y al que la gente blanca de familias poderosas podría llegar a aceptar si pasa todas las pruebas de autoflagelamiento mental. Te vuelve muy fálico.
 
-He vivido en Tizapan, Pedregal de Santo Domingo, Santa Ursula, Polanco, la Doctores, Tlatelolco,  Viaducto Santa Anita, Roma Sur, Santa Maria la Ribera,
+He vivido en Tizapán, Pedregal de Santo Domingo, Santa Úrsula, Polanco, la Doctores, Tlatelolco,  Viaducto Santa Anita, Roma Sur, Santa María la Ribera.
 
-Tambien tuve la oportunidad de convivir con gente muy fresa de escuelas como el Logos, el Madrid, el Olinca, etc. durante mi estancia en la facultad, y pude apreciar que muchas veces tenian posiciones muy fijas respecto al trabajo (y al dinero), a la estetica, al Estado y al activismo.
+También tuve la oportunidad de convivir con gente muy fresa de escuelas como el Logos, el Madrid, el Olinca, etc. durante mi estancia en la facultad, y pude apreciar que muchas veces tenían posiciones muy fijas respecto al trabajo (y al dinero), a la estética, al Estado y al activismo.
 
-En medio de situaciones tan distintas, participe en un encuentro de Jovenes frente a la Emergencia Nacional, que me ensenio mucho sobre la organizacion popular de gente de edades cercanas a la mia.
+En medio de situaciones tan distintas, participé en un encuentro de Jóvenes frente a la Emergencia Nacional, que me enseñó mucho sobre la organización popular de gente de edades cercanas a la mía.
 
-Espero que ahora imaginen la marania de deseos, traumas, frustraciones, anhelos, babeadas, lagrimas, apretadas de mandibula y otras cosas que he sentido y que me han atravesado desde el primer dia fuera de mi casa a los 18 anios hasta el momento de ponerle punto final a este texto.
+Espero que ahora imaginen la maraña de deseos, traumas, frustraciones, anhelos, babeadas, lágrimas, apretadas de mandíbula y otras cosas que he sentido y que me han atravesado desde el primer día fuera de mi casa a los 18 años hasta el momento de ponerle punto final a este texto.
 
-Al final tuve que ponerme a trabajar para pagar mi renta si queria vivir en la Ciudad de Mexico y asi aprendi otro tanto de cosas. Termine esta tesis en el 2019 mientras comenzaba a trabajar en mi segundo *call center* y aspiraba a entrar a un *bootcamp* o escuela de programacion en linea.
+Al final tuve que ponerme a trabajar para pagar mi renta si quería vivir en la Ciudad de Mexico y así aprendi otro tanto de cosas. Terminé esta tesis en el 2019 mientras comenzaba a trabajar en mi segundo *call center* y aspiraba a entrar a un *bootcamp* o escuela de programación en línea.
 
-Y de eso se trata todo este trabajo, de una persona que comparte su deseo por imaginar fuerzas mas alla de las formas historicas convencionales. Agradezco a toda la gente que me ha permitido estar aqui hoy, tanto en cuerpo como en ideas.
+Y de eso se trata todo este trabajo, de una persona que comparte su deseo por imaginar fuerzas mas allá de las formas históricas convencionales. Agradezco a toda la gente que me ha permitido estar aquí hoy, tanto en cuerpo como en ideas.
 
 A Preciado, a Silvestri.
 A Angela y a Cristine.
@@ -61,37 +61,37 @@ A su devenir en La Partida.
 A la Fundacion Friedrich Ebert.
 A Fran y Laura Elisa.
 A mi familia y a la familia Cuahutle Navarro.
-A esta Honorable Institucion y en particular al Sistema de Ensenianza Abierta y a Distancia.
+A esta Honorable Institución y en particular al Sistema de Enseñanza Abierta y a Distancia.
 Para ustedes es este texto, con todo el amor. <3
 
 ## Sumario
 
-Un Partido destituyente solo puede definirse como una forma que construye a cada instante una posicion sobre los agenciamientos que produce.
+Un Partido destituyente solo puede definirse como una forma que construye a cada instante una posición sobre los agenciamientos que produce.
 
-Viene de un problema politico, sobre la unidad de subjetividad politica, el ciudadano.
+Viene de un problema político, sobre la unidad de subjetividad política, el ciudadano.
 
-El problema politico real es la captura tecnologica del deseo.
+El problema político real es la captura tecnológica del deseo.
 
-### Antropologia es una tecnologia.
+### Antropología es una tecnología.
 
-Como opera la dominacion mercantil????
+Cómo opera la dominación mercantil????
 
-La perdida de agencia del ciudadano tiene que ver con la sujecion de su produccion deseante, pues solo es posible que haya una produccion deseante cuando la voluntad de la forma de vida que la produce 1) no es procesable por una entidad codificadora de flujos deseantes y 2) no produce ningun beneficio economico (plusvalor)
+La pérdida de agencia del ciudadano tiene que ver con la sujeción de su producción deseante, pues solo es posible que haya una producción deseante cuando la voluntad de la forma de vida que la produce 1) no es procesable por una entidad codificadora de flujos deseantes y 2) no produce ningún beneficio económico (plusvalor).
 
-No vale la pena hablar del Estado, es ocioso. Vale la pena, sin embargo, hablar sobre la guerra de religiones. Las zonas autonomas
+No vale la pena hablar del Estado, es ocioso. Vale la pena, sin embargo, hablar sobre la guerra de religiones. Las zonas autónomas
 
 ## [Intro](es/md/chapters/01-intro)
-## Capitulo 1
-## Capitulo 2
-## Capitulo 3
+## Capítulo 1
+## Capítulo 2
+## Capítulo 3
 
 - *Potentia gaudendi*
-- El Bloom u hombre-masa tambien es conocido como incel y es al mismo tiempo un protagonista del internet, dando forma a una ideologia que se transmite a traves de la cibernetica
-- Farmacopornografia es el paradigma de la industria cultural
-- El Biopoder del imperio regula la vida libidinal, el genero, excitacion, frustracion y placer
+- El Bloom u hombre-masa también es conocido como incel y es al mismo tiempo un protagonista del internet, dando forma a una ideología que se transmite a través de la cibernética
+- Farmacopornografía es el paradigma de la industria cultural
+- El Biopoder del imperio regula la vida libidinal, el género, excitación, frustración y placer
 - Cibernetica es gobierno corporativo
-- Bloom es instancia molecular del Imperio, es el sujeto mas sujeto, mas beneficiado, mas ciudadano
-- Bloom es un trabajador sujeto a traves de la pantalla, del Entretenimiento
+- Bloom es instancia molecular del Imperio, es el sujeto más sujeto, más beneficiado, más ciudadano
+- Bloom es un trabajador sujeto a través de la pantalla, del Entretenimiento
 
 
-## Capitulo 4
+## Capítulo 4

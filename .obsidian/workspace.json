@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "39c494effe27c9ad",
+        "id": "57dcecac5e147096",
         "type": "tabs",
         "children": [
           {
-            "id": "b43df8bcc486dc89",
+            "id": "82fbe7894fa1b2a4",
             "type": "leaf",
             "state": {
               "type": "empty",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -35,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -50,7 +54,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,7 +64,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -81,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Proofreading/prologue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +97,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for prologue"
             }
           },
           {
@@ -97,9 +108,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Proofreading/prologue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from prologue"
             }
           },
           {
@@ -110,7 +124,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -118,7 +134,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Proofreading/prologue.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of prologue"
             }
           }
         ]
@@ -135,42 +155,57 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "b43df8bcc486dc89",
+  "active": "82fbe7894fa1b2a4",
   "lastOpenFiles": [
-    "ticket_template.md",
-    "README.md",
-    "rails-nextjs.md",
-    "prologue.md",
-    "PROJECT.md",
-    "Main.pdf",
-    "LEPHUCR-125.md",
-    "LEPHUCR-025.md",
-    "LEPHUCR-023.md",
-    "LEPHUCR-021.md",
-    "LEPHUCR-018.md",
+    "public/_flowershow/theme-button.svg",
+    "public/_flowershow/avatarplaceholder.png",
+    "LEPHUCR-018-Half-letter.md",
     "LEPHUCR-013.md",
-    "LEPHUCR-011.md",
-    "LEPHUCR-008.md",
-    "LEPHUCR-010.md",
-    "LEPHUCR-007.md",
-    "LEPHUCR-002.md",
+    "Untitled",
     "LEPHUCR-001.md",
-    "lephucr-issues.csv",
-    "fix-ticket-numbers.rb",
-    "Main.bib",
-    "LaPartida Invitation.md",
-    "LEPHUCR-021.rb",
+    "LEPHUCR-011.md",
+    "LEPHUCR-021.md",
+    "LEPHUCR-023.md",
+    "LEPHUCR-025.md",
+    "LEPHUCR-125.md",
+    "README copy.md",
+    "README.md",
+    "1-plantar-cara/01-manifest.md",
+    "DALL·E 2024-06-16 16.13.06 - A black and white photograph showing a diverse group of Mexican anarchists from Iztapalapa involved in various social struggles The group includes feminists and people of various backgrounds dressed in contemp.webp",
+    "rails-nextjs.md",
+    "content/2-lephucr/03-cap2.md",
+    "2-lephucr/03-cap2.md",
+    "content/2-lephucr/02-cap1.md",
+    "2-lephucr/02-cap1.md",
+    "content/2-lephucr/05-cap4.md",
+    "2-lephucr/05-cap4.md",
     "Guía para la corrección de documentos con LaTeX y todonotes – Telegraph.md",
-    "CTAs.md",
-    "2024-05-15.md",
-    "plantar.bib",
-    "interview-miguel.md",
-    "Backlog.md",
-    "LEPHUCR-009.md",
-    "LEPHUCR-006.md",
-    "prologue.tex.md"
+    "prologue.md",
+    "prologue_no_emoji.md",
+    "content/2-lephucr/04-cap3.md",
+    "2-lephucr/04-cap3.md",
+    "2-lephucr/01b-intro.md",
+    "content/2-lephucr/01b-intro.md",
+    "content/3-accion-critica",
+    "content/1-plantar-cara",
+    "content/2-lephucr",
+    "content",
+    "Proofreading",
+    "public/_flowershow",
+    "public",
+    "node_modules/cytoscape-fcose/demo/demo.gif",
+    "node_modules/cytoscape-fcose/demo/incrementalConstraints.gif",
+    "node_modules/cytoscape-fcose/node_modules/layout-base/layout-schema.png",
+    "node_modules/layout-base/layout-schema.png",
+    "node_modules/non-layered-tidy-tree-layout/screenshots/1.png",
+    "node_modules/next-mdx-remote/header.png",
+    "node_modules/date-fns/docs/logotype.svg",
+    "node_modules/hast-util-to-jsx-runtime/node_modules/micromark-util-decode-numeric-character-reference/dev",
+    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader"
   ]
 }
