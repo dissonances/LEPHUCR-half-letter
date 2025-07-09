@@ -5,7 +5,7 @@ This book is my thesis work at UNAM MX to graduate from Philosophy. Started most
 After graduating, decided to start playing around it now that I am also a programmer.
 
 ## Watch my cringy video in spanish
-https://youtu.be/2wX_b6rpVbo 
+https://youtu.be/2wX_b6rpVbo
 
 ## The book is available in these languages so far
 - spanish

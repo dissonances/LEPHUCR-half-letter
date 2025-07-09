@@ -11,12 +11,14 @@
             "id": "e8561e51bcf5d1d4",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.7"
+                "file": "NUEVA ESTRUCTURA.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "NUEVA ESTRUCTURA"
             }
           }
         ]
@@ -38,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -164,7 +167,13 @@
   },
   "active": "e8561e51bcf5d1d4",
   "lastOpenFiles": [
+    "Main.pdf",
+    "README copy.md",
     "Untitled.md",
+    "ticket_template.md",
+    "README.md",
+    "prologue_no_emoji.md",
+    "Proofread the book.md",
     "publish.js.md",
     "2-lephucr/06-cap5.md",
     "LEPHUCR/Capítulo 4.md",
@@ -179,7 +188,6 @@
     "LEPHUCR/00-colofón.md",
     "LEPHUCR/01a-cita.md",
     "LEPHUCR",
-    "README.md",
     "Pasted image 20241119122529.png",
     "node_modules/cytoscape-fcose/demo/demo.gif",
     "node_modules/cytoscape-fcose/demo/incrementalConstraints.gif",
@@ -190,11 +198,6 @@
     "node_modules/cytoscape-fcose/node_modules/layout-base/layout-schema.png",
     "node_modules/date-fns/CHANGELOG.md",
     "node_modules/d3-shape/README.md",
-    "node_modules/d3-scale/README.md",
-    "node_modules/d3-sankey/node_modules/d3-shape/README.md",
-    "node_modules/zod/README.md",
-    "node_modules/node-gyp/CHANGELOG.md",
-    "node_modules/dayjs/CHANGELOG.md",
     "node_modules/layout-base/layout-schema.png",
     "node_modules/non-layered-tidy-tree-layout/screenshots/1.png",
     "node_modules/next-mdx-remote/header.png",
