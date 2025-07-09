@@ -1,3 +1,7 @@
+---
+title: WIKI=RÁPIDO
+---
+
 # *WIKI*=RÁPIDO
 
 Esta reflexión escrita nació de notas, discusiones y lecturas entre fundadoras e integrantes de la organización. Aquí sistematizamos alrededor de cinco años de investigación de nuestro compromiso por transformar la forma de hacer política. En el texto se integran visiones desde y sobre Wikipolítica pero también sobre otros movimientos autónomos de vanguardia política, en diferentes latitudes y temporalidades.
