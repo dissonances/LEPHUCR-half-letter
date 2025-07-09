@@ -8,13 +8,17 @@
 
 ## Compilation Commands
 
-To compile the book with bibliography support while ignoring errors:
+To compile the book with bibliography support:
 
 ```
-xelatex -interaction=nonstopmode Main.tex
-biber Main
-xelatex -interaction=nonstopmode Main.tex
-xelatex -interaction=nonstopmode Main.tex
+make
+```
+
+Or use individual targets:
+
+```
+make pdf      # Full compilation
+make clean    # Remove temporary files
 ```
 
 ## Flowershow
