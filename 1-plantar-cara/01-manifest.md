@@ -20,7 +20,7 @@ corona del rey.
 
 Otra persona me salva. Su miseria me recuerda cuán cómplice soy de su
 opresión, pero siento también un grato regocijo verle
-sufrir <u>\cite{Wikipedia2023}</u>. A veces llamamos humanidad a su
+sufrir \cite{Wikipedia2023}. A veces llamamos humanidad a su
 regocijo, otras veces, deseo, pero ellos llaman resentimiento de clase
 a nuestra mirada. La que necesitan para vivir.
 
@@ -52,7 +52,7 @@ de la civilización, del cosmopolitismo urbano.
 Como en la Atenas, en esta guerra quien no toma partido es cómplice de
 la desidia. Nosotros queremos cimbrar la historia, devenir real en
 simulacro, queremos El Partido. Una singularidad con campos de
-patatas <u>\cite{Wikipedia2023a}<u>.
+patatas \cite{Wikipedia2023a}.
 
 \*\*
 
@@ -62,7 +62,7 @@ es más que un juego.
 
 Por este movimiento de desmodernización, de devenir residuo, El
 Partido, con sus aspiraciones a conformar un nuevo Estado, es disuelto
-por el ácido de su propia ambición <u>\cite{Tiqqun2013a}</u>. De sus
+por el ácido de su propia ambición \cite{Tiqqun2013a}. De sus
 cenizas surge un ethos político al que llamamos La Partida.
 
 La Partida es lo que quieran.
@@ -83,7 +83,7 @@ La división, el inicio.
 
 El juego, la lucha sin mi rostro en la historia.
 
-Una improvisación <u>\cite{Icle2009}.</u>
+Una improvisación \cite{Icle2009}.
 
 Las que tenemos miedo (de la voluntad de poder, de nuestras sombras),
 las que somos jardineras silenciosas de ese porvenir, somos las que
@@ -98,4 +98,3 @@ La técnica, aquello que hay que hacer común.
 La libertad, el horizonte por el que nos cuestionamos cada paso que damos.
 
 LA PARTIDA, órgano de la tecnocrítica en Wikipolítica Mx
-

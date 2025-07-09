@@ -29,7 +29,7 @@ kanban-plugin: basic
 - [ ] #videos [[LEPHUCR-006]] Record a video for each chapter
 - [ ] #CTA Proper email payment flow after purchase with
 - [ ] Register in Mexico https://www.gob.mx/tramites/ficha/inscripcion-de-obra-literaria-o-artistica/INDAUTOR3258
-- [ ] #frontend #feature #release [[lephucr.com]] CTA: Stripe subscription to $5 USD newsletter releases for new versions, GH repo invitation and CTA to contribute 
+- [ ] #frontend #feature #release [[lephucr.com]] CTA: Stripe subscription to $5 USD newsletter releases for new versions, GH repo invitation and CTA to contribute
 - [ ] #frontend Standardize colors and set cool Nerd font
 - [ ] Prologue using https://github.com/maximevaillancourt/digital-garden-jekyll-template
 - [ ] Obsidian Publish page with password

@@ -11,3 +11,5 @@ Check out our publications:
 - `Main.tex` is the compilation source. Here you can modify chapter paths.
 - `Tiqqunazo.csl` is the styling file.
 - `Main.bib` is the bibliography file.
+
+- Floweshow
