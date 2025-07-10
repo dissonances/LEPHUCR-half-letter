@@ -15,7 +15,6 @@ pdf:
 	$(LATEX) $(DOCNAME).tex || (echo "First LaTeX pass failed. Check Main.log for errors." && exit 1)
 	$(BIBER) $(DOCNAME) || (echo "Biber failed. Check Main.blg for errors." && exit 1)
 	$(LATEX) $(DOCNAME).tex || (echo "Second LaTeX pass failed. Check Main.log for errors." && exit 1)
-	$(LATEX) $(DOCNAME).tex || (echo "Final LaTeX pass failed. Check Main.log for errors." && exit 1)
 	@echo "PDF compilation complete."
 
 # Clean temporary files

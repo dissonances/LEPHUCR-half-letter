@@ -11,8 +11,34 @@
 %\usepackage[authordate, backend=biber, autocite=footnote]{biblatex-chicago}
 
 \graphicspath{{images/}}
-\usepackage[backend=biber,style=apa,autocite=footnote]{biblatex}
+\usepackage[backend=biber,
+            style=chicago-authordate,
+            autocite=footnote,
+            citestyle=verbose-ibid,
+            pagetracker=true,
+            ibidtracker=constrict,
+            block=space]{biblatex}
 \addbibresource{Main.bib}
+
+% Improve bibliography spacing and appearance
+\setlength{\bibhang}{0em}
+\setlength{\bibitemsep}{1.2\baselineskip}
+\renewcommand*{\bibfont}{\small}
+
+% Make footnote citations more readable
+\renewcommand{\footnotesize}{\small}
+\setlength{\footnotesep}{1.2\baselineskip}
+\renewcommand{\footnoterule}{\vspace*{-3pt}\noindent\textcolor{gray!40}{\rule{0.3\textwidth}{0.5pt}}\vspace*{2.6pt}}
+
+% Add microtype for better typography
+\usepackage{microtype}
+
+% Improve line spacing for better readability
+\usepackage{setspace}
+\setstretch{1.15}
+
+% Format the bibliography section more clearly
+\defbibheading{bibliography}{\section*{Referencias}}
 
 %%%%%%%%%%%%%%%%%%%%%% VALORES DE LA CARÁTULA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{LEE ESTO PARA HACER UN CAMBIO REAL} % Cambia el título del documento
